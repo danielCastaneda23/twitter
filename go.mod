@@ -1,4 +1,4 @@
-module  /Users/danielcastaneda/Desktop/Go/Twitter
+module  github.com/danisper/twitter
 
 
 go 1.12
