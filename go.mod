@@ -1,4 +1,4 @@
-module  github.com/danisper/twitter
+module  Twitter
 
 
 go 1.12
