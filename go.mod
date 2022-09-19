@@ -1,7 +1,5 @@
-module  github.com/danisper/twitter
+module github.com/danisper/twitter
 
+go 1.19
 
-go 1.12
-
-require (
-)
+require ()
