@@ -2,6 +2,7 @@ package routers
 
 import (
 	"errors"
+	"fmt"
 	"strings"
 
 	"github.com/danisper/twitter/bd"
@@ -31,6 +32,7 @@ func ProcesoToken(tk string) (*models.Claim, bool, string, error) {
 			Email = claims.Email
 			IDUsuario = claims.ID.Hex()
 		}
+		fmt.Println(claims)
 		return claims, encontrado, IDUsuario, nil
 	}
 	if !tkn.Valid {
